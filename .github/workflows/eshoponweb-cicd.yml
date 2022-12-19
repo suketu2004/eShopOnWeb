@@ -7,6 +7,7 @@ on: [push, workflow_dispatch]
 env:
   RESOURCE-GROUP: rg-az400-eshopeonweb-suketu
   TEMPLATE-FILE: .azure/bicep/webapp.bicep
+  LOCATION: westus
   SUBSCRIPTION-ID: 79b8ad17-0973-4a06-94cc-f4a7fe795c31
   WEBAPP-NAME: az400-webapp-suketu
 
